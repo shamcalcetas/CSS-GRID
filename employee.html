@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<title> Employee List Grid </title>
+
+<head>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 10px;
+            background-color: #dea369;
+            padding: 10px;
+        }
+
+        .header {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid black;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 6px;
+            border-radius: 5px;
+        }
+
+        .item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid black;
+            text-align: center;
+            font-size: 20px;
+            padding: 2px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <div class="header"> Name </div>
+        <div class="header"> Department </div>
+        <div class="header"> Age </div>
+        <div class="header"> Email </div>
+
+        <div class="item "> John Doe </div>
+        <div class="item"> Sales </div>
+        <div class="item"> 30 </div>
+        <div class="item"> john.doe@company.com </div>
+
+        <div class="item"> Lisa Wong </div>
+        <div class="item"> Marketing </div>
+        <div class="item"> 28 </div>
+        <div class="item"> lisa.wong@company.com </div>
+
+        <div class="item"> Jane Smith </div>
+        <div class="item"> Finance </div>
+        <div class="item"> 25 </div>
+        <div class="item"> jane.smith@company.com </div>
+
+    </div>
+
+</body>
+
+</html>

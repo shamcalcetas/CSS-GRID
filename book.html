@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<title> Book List Grid </title>
+
+<head>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            gap: 10px;
+            background-color: #fec5bb;
+            padding: 10px;
+        }
+
+        .header {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid black;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 6px;
+            border-radius: 5px;
+        }
+
+        .item {
+            background-color: rgba(255, 255, 255, 0.8);
+            border: 1px solid black;
+            text-align: center;
+            font-size: 20px;
+            padding: 2px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <div class="header"> Title </div>
+        <div class="header"> Author </div>
+        <div class="header"> Genre </div>
+        <div class="header"> Published Year </div>
+
+        <div class="item "> To Kill a Mockingbird </div>
+        <div class="item"> Harper Lee </div>
+        <div class="item"> Fiction </div>
+        <div class="item"> 1960 </div>
+
+        <div class="item"> A Brief History of Time </div>
+        <div class="item"> Stephen Hawking </div>
+        <div class="item"> Non-Fiction </div>
+        <div class="item"> 1988 </div>
+
+        <div class="item"> 1984 </div>
+        <div class="item"> George Orwell </div>
+        <div class="item"> Dystopian </div>
+        <div class="item"> 1949 </div>
+
+    </div>
+
+</body>
+
+</html>
